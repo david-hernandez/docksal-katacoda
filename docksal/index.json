@@ -27,7 +27,7 @@
   "environment": {
     "uilayout": "terminal-iframe",
     "showdashboard": true,
-    "dashboard": "Website Preview"
+    "dashboard": "Web Preview"
   },
   "backend": {
     "imageid": "ubuntu",
