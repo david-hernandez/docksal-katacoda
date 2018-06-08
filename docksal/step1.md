@@ -1,3 +1,3 @@
 To install Docksal use the following command.
 
-`curl -L get.docksal.io`{{execute}}
+`curl -fsSL https://get.docksal.io | sh`{{execute}}
