@@ -1,6 +1,7 @@
 {
   "title": "Docksal",
   "description": "Docksal tutorial",
+  "icon": "fa-docker",
   "details": {
     "steps": [
       {
@@ -26,7 +27,7 @@
   "environment": {
     "uilayout": "editor-terminal",
     "showdashboard": true,
-    "dashboards": [{ "name": "App", "port": 8080, "host": "host02" }]
+    "dashboards": [{ "name": "Website Preview", "port": 80, "host": "host01" }]
   },
   "backend": {
     "imageid": "ubuntu"
