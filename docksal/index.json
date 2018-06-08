@@ -25,11 +25,12 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
+    "uilayout": "terminal-iframe",
     "showdashboard": true,
-    "dashboards": [{ "name": "Website Preview", "port": 80, "host": "host01" }]
+    "dashboard": "Dashboard"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "ubuntu",
+    "port": 80
   }
 }
