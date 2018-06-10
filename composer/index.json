@@ -1,11 +1,10 @@
 {
-  "title": "Docksal",
-  "description": "Docksal tutorial",
-  "icon": "fa-docker",
+  "title": "Composer",
+  "description": "Composer tutorial"
   "details": {
     "steps": [
       {
-        "title": "Installing Docksal",
+        "title": "Installing Composer",
         "text": "step1.md"
       },
       {
@@ -25,9 +24,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe",
-    "showdashboard": true,
-    "dashboard": "Web Preview"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "ubuntu",
