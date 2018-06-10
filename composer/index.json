@@ -1,33 +1,24 @@
 {
-  "title": "Composer",
-  "description": "Composer tutorial"
+  "title": "My First Scenario",
+  "description": "Learning how to educate via Katacoda",
   "details": {
     "steps": [
-      {
-        "title": "Installing Composer",
-        "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
-      }
+      { "title": "Title", "text": "step1.md" },
+      { "title": "Goes", "text": "step2.md" },
+      { "title": "Here", "text": "step3.md" }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "env-init.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu",
-    "port": 80
+    "imageid": "ubuntu"
   }
 }
