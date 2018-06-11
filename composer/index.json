@@ -4,8 +4,8 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Using the Init Command",
+        "text": "01-Init.md"
       },
       {
         "title": "Goes",
@@ -26,7 +26,7 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/root",
+    "uieditorpath": "/root/my-project",
     "showdashboard": true
   },
   "backend": {
