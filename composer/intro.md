@@ -14,3 +14,8 @@ most of what is explained is specific to Composer, not Drupal, so the
 information should still be relevant to any PHP project. And since the Drupal 8
 use-case is more complex than simple "Hello, World!" functionality, it shows
 some of Composer's possibilities.
+
+## Before you begin
+
+You may seem the environment performing some setup tasks. It is installing Composer for you. If it is still working as 
+you start step 1, just let it finish. It should only take a moment.
