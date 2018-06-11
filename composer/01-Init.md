@@ -1,5 +1,3 @@
-# Using the Init Command
-
 https://getcomposer.org/doc/03-cli.md#init
 
 Everything Composer does it based on a `composer.json` file sitting in the root 
@@ -19,7 +17,7 @@ This generator will prompt you for basic information to create your initial
 `composer.json` file.
 
 ```
-Package name (<vendor>/<name>) [root/www]: david-hernandez/init
+Package name (<vendor>/<name>) [root/www]: david-hernandez/composer-tutorial
 ```
 
 I used my Github username and a made up project name. This isn't required for
@@ -62,7 +60,8 @@ License []:
 If you want to define the open source license your project will use, like GPL, 
 put it here. This is optional. 
 
-```Define your dependencies.
+```
+Define your dependencies.
 
 Would you like to define your dependencies (require) interactively [yes]? no
 ```
