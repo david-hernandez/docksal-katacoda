@@ -1,6 +1,7 @@
 {
   "title": "Composer Tutorial",
   "description": "Learning Composer",
+  "time": "1 hour",
   "details": {
     "steps": [
       {
@@ -30,6 +31,10 @@
       {
         "title": "Adding Repositories",
         "text": "07-Repositories.md"
+      },
+      {
+        "title": "Managing Conflicts",
+        "text": "08-Conflict.md"
       }
     ],
     "intro": {
