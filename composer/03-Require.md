@@ -71,7 +71,7 @@ Drupal isn't a straightforward use-case, but let's look at the json file.
     ],
     "minimum-stability": "dev",
     "require": {
-        "drupal/drupal": "8.6.x-dev"
+        "drupal/drupal": "^8.5"
     }
 }
 ```
@@ -85,8 +85,9 @@ on Packagist.org.
 https://packagist.org/packages/drupal/drupal
 
 Since we did not specify the version to get, it grabs the most recent one. Furthermore, 
-because we set `minimum-stability` to `dev` we told Composer it is ok to get the dev version.
-Thus, it retrieved `8.6.x-dev` which is Drupal 8's development branch.
+because we set `minimum-stability` to `dev` we told Composer it is ok to get the dev version. Thus, it actually 
+retrieved `8.6.x-dev` which is Drupal 8's development branch, even if the json file has 8.5 in it. You can see that 
+in the lock file below.
 
 If we save this `composer.json` file and give it to someone else, when they run 
 `composer install` they will get the same result. A vendor directory with Drupal in it, 

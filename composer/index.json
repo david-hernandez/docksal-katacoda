@@ -18,6 +18,10 @@
       {
         "title": "Require-dev",
         "text": "04-Require-dev.md"
+      },
+      {
+        "title": "Versions",
+        "text": "05-Versions.md"
       }
     ],
     "intro": {

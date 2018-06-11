@@ -49,10 +49,10 @@ Let's take a look at the `composer.json` file.
     ],
     "minimum-stability": "dev",
     "require": {
-        "drupal/drupal": "8.6.x-dev"
+        "drupal/drupal": "^8.5"
     },
     "require-dev": {
-        "drupal/console": "dev-master"
+        "drupal/console": "^1.8"
     }
 }
 ```
