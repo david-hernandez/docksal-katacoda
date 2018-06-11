@@ -133,3 +133,27 @@ go up to `8.6`. For Console, it retrieved `1.8.0`, which is the most current
 
 This is why the lock file is so important. We need to know the exact result, because 
 we are often dealing with version ranges.
+
+### Example File
+
+```
+{
+    "name": "david-hernandez/composer-tutorial",
+    "description": "My fancy new composer project.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "David Hernandez",
+            "email": "david@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "drupal/drupal": "~8.5.3"
+    },
+    "require-dev": {
+        "drupal/console": "^1.0.0"
+    }
+}
+```

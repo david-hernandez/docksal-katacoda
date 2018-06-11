@@ -57,7 +57,7 @@ specify retrieving dev releases, like adding it to the `required` section, but
 this covers most use-cases. Check the Composer documentation linked at the top
 for more details.**
 
-Your edited json file should look similar to below.
+### Example File
 
 ```
 {

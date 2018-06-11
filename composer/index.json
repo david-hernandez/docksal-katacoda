@@ -26,6 +26,10 @@
       {
         "title": "Defining Stability",
         "text": "06-Stability.md"
+      },
+      {
+        "title": "Adding Repositories",
+        "text": "07-Repositories.md"
       }
     ],
     "intro": {
