@@ -84,4 +84,4 @@ This can work, but we ultimately want something different. We want to define an 
 contain our files inside it. To do that, we need to add some extras.
 
 >Remember, while practicing with this tutorial you might need to delete the `composer.lock` file and possible the
-vendor directory if it is getting messy in there. Use 'rm -r' to remove a directory.
+vendor directory if it is getting messy in there. Use `rm -r` to remove a directory.

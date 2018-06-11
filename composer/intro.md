@@ -19,3 +19,11 @@ some of Composer's possibilities.
 
 You may see the environment performing some setup tasks. It is installing Composer for you. If it is still working as 
 you start step 1, just let it finish. It should only take a moment.
+
+As you progress through the steps, the environment does not reset. You will be working 
+with the same project directory and files. Feel free to do whatever you want, but you will need to 
+delete the `composer.lock` file and sometimes the contents of the project directory, to clean 
+up from previous steps. Just use the `rm` command. This is an Ubuntu system.
+
+Also, sometimes when you run the install command the system may take a while. Just 
+let it run. There is nothing I can do about it.

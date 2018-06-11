@@ -39,6 +39,22 @@
       {
         "title": "Utilizing Scripts",
         "text": "09-Scripts.md"
+      },
+      {
+        "title": "Utilizing Scripts",
+        "text": "10-Extra.md"
+      },
+      {
+        "title": "Updating Dependencies",
+        "text": "11-Update.md"
+      },
+      {
+        "title": "Using the `create-project` Command",
+        "text": "12-Create-project.md"
+      },
+      {
+        "title": "Applying Patches with Composer",
+        "text": "13-Patches.md"
       }
     ],
     "intro": {
