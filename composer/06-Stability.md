@@ -59,7 +59,7 @@ for more details.**
 
 Your edited json file should look similar to below.
 
-```json
+```
 {
     "name": "david-hernandez/composer-tutorial",
     "description": "My fancy new composer project.",
@@ -79,5 +79,4 @@ Your edited json file should look similar to below.
         "drupal/console": "^1.0.0"
     }
 }
-
 ```
