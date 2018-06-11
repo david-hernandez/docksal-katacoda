@@ -35,7 +35,6 @@ it the first time.
 
 ```$xslt
 $ ls -l
-README.md
 composer.json
 vendor
 ```

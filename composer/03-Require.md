@@ -58,6 +58,8 @@ and is the basis for our project. It needs to be outside of the vendor directory
 in a web or document root directory. We'll get to that later, and you can see why 
 Drupal isn't a straightforward use-case, but let's look at the json file.
 
+>Remember, your version numbers may vary depending on what versions have currently been released.
+
 ```$xslt
 {
     "name": "david-hernandez/composer-tutorial",
