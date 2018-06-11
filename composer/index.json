@@ -35,6 +35,10 @@
       {
         "title": "Managing Conflicts",
         "text": "08-Conflict.md"
+      },
+      {
+        "title": "Utilizing Scripts",
+        "text": "09-Scripts.md"
       }
     ],
     "intro": {

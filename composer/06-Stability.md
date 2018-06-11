@@ -1,8 +1,8 @@
 https://getcomposer.org/doc/04-schema.md#minimum-stability
 
-**As these steps progress you'll be repeatedly editing the `composer.json` file and rerunning `composer install`. 
+>As these steps progress you'll be repeatedly editing the `composer.json` file and rerunning `composer install`. 
 Remember, you may need to remove the `composer.lock` file before executing it. You can remove the lock file with 
-`rm compose.lock`.**
+`rm compose.lock`.
 
 In the previous examples/steps of this tutorial we've been getting dev versions
 of packages. This is because of the minimum stability question that was presented 

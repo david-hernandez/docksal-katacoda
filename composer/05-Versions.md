@@ -8,7 +8,7 @@ the most confusion.
 **The most important thing to note is that Composer does a lot of work to 
 figure out what package to retrieve. That doesn't always result in the newest version.**
 
-Try the versions below by editing the `composer.json` file, removing the `composer.lock` file, and executing 
+>Try the versions below by editing the `composer.json` file, removing the `composer.lock` file, and executing 
 `composer install`. You can remove the lock file with `rm compose.lock`.
 
 #### Exact version
