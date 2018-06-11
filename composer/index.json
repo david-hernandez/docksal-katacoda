@@ -14,6 +14,10 @@
       {
         "title": "Require",
         "text": "03-Require.md"
+      },
+      {
+        "title": "Require-dev",
+        "text": "04-Require-dev.md"
       }
     ],
     "intro": {

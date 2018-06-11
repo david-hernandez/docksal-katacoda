@@ -46,12 +46,10 @@ based on the vendor name. So Drupal ends up in a `drupal` folder.
 ```$xslt
 $ ls -l vendor/
 total 8
-drwxr-xr-x   6 davidhernandez  staff  204 May 11 16:41 .
-drwxr-xr-x   6 davidhernandez  staff  204 May 11 16:45 ..
--rw-r--r--   1 davidhernandez  staff  178 May 11 16:41 autoload.php
-drwxr-xr-x  11 davidhernandez  staff  374 May 11 16:41 composer
-drwxr-xr-x   3 davidhernandez  staff  102 May 11 16:40 drupal
-drwxr-xr-x   3 davidhernandez  staff  102 May 11 16:40 wikimedia
+autoload.php
+composer
+drupal
+wikimedia
 
 ```
 
@@ -62,8 +60,8 @@ Drupal isn't a straightforward use-case, but let's look at the json file.
 
 ```$xslt
 {
-    "name": "david-hernandez/init",
-    "description": "Using the init command to create a new project.",
+    "name": "david-hernandez/composer-tutorial",
+    "description": "My fancy new composer project.",
     "type": "project",
     "authors": [
         {

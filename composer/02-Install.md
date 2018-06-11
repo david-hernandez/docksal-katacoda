@@ -15,9 +15,9 @@ composer install
 Run this command from the same location as the `composer.json` file.
 
 ```$xslt
-1/11:	http://packagist.org/p/provider-archived$afa373e95aa9fa7678612f8...
-2/11:	http://packagist.org/p/provider-latest$906c970475603cf8253151905...
-3/11:	http://packagist.org/p/provider-2018-04$312ab290f669dc52354b4211...
+1/11:	http://packagist.org/p/provider...
+2/11:	http://packagist.org/p/provider...
+3/11:	http://packagist.org/p/provider...
 ...
 Finished: success: 11, skipped: 0, failure: 0, total: 11
 Loading composer repositories with package information
@@ -35,9 +35,9 @@ it the first time.
 
 ```$xslt
 $ ls -l
--rw-r--r--  1 davidhernandez  staff  2392 May 11 15:31 README.md
--rw-r--r--  1 davidhernandez  staff   307 May 11 14:36 composer.json
-drwxr-xr-x  4 davidhernandez  staff   136 May 11 15:28 vendor
+README.md
+composer.json
+vendor
 ```
 
 We can see here that one of the setup tasks is to create a `vendor` directory.
@@ -45,8 +45,8 @@ This is where Composer will put all the packages you will use in your project.
 
 ```$xslt
 $ ls -l vendor/
--rw-r--r--   1 davidhernandez  staff  178 May 11 15:28 autoload.php
-drwxr-xr-x  10 davidhernandez  staff  340 May 11 15:28 composer
+autoload.php
+composer
 ```
 
 Without requiring any packages, Composer will still download and setup one thing. 
