@@ -25,7 +25,7 @@ your local project purposes, but is if you want to make your project public and
 create an account on Packagist.org.
         
 ```
-Description []: Using the init command to create a new project.
+Description []: My fancy new composer project.
 ```
 
 Add a helpful description for the project.
@@ -78,8 +78,8 @@ Development dependencies are grouped separately. We'll get to this later.
 
 ```
 {
-    "name": "david-hernandez/init",
-    "description": "Using the init command to create a new project.",
+    "name": "david-hernandez/composer-tutorial",
+    "description": "My fancy new composer project.",
     "type": "project",
     "authors": [
         {
@@ -101,3 +101,6 @@ Do you confirm generation [yes]? yes
 
 The file will not be written unless you say `yes` to the 
 confirmation prompt.
+
+Once written, you should see the file written to your project directory in the editor window up above. Open the file 
+and take a look.
