@@ -8,20 +8,24 @@
         "text": "01-Init.md"
       },
       {
-        "title": "Install",
+        "title": "Using the Install Command",
         "text": "02-Install.md"
       },
       {
-        "title": "Require",
+        "title": "Requiring Dependencies",
         "text": "03-Require.md"
       },
       {
-        "title": "Require-dev",
+        "title": "Requiring Development Dependencies",
         "text": "04-Require-dev.md"
       },
       {
-        "title": "Versions",
+        "title": "Working with Package Versions",
         "text": "05-Versions.md"
+      },
+      {
+        "title": "Defining Stability",
+        "text": "06-Stability.md"
       }
     ],
     "intro": {
